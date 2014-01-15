@@ -1,0 +1,636 @@
+/* StyleSheet for the 'Mazu Theme' Package */
+
+.section-front-page #parent-fieldname-title {
+  display: none;
+}
+.section-front-page #portal-columns {
+  min-height: 250px;
+}
+.section-front-page #carousel-footer-headline {
+  display: block;
+}
+
+.portletItemDetails {
+  color: #888888;
+  display: block;
+  font-size: 85%;
+  line-height: 1.5em;
+  padding-top: 2px;
+  margin-bottom: 5px;
+}
+
+#content h1 {
+  color: #1851AD;
+}
+
+img {
+  border: 0;
+  vertical-align: bottom;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #5C5A49;
+}
+a:visited {
+  color: #004284;
+}
+a:hover {
+  color: #F60;
+}
+a:active {
+  color: #069;
+}
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  letter-spacing: 0em;
+  color: #464540;
+  line-height :21px;
+  font-size:15px;
+  background: url("++theme++mazu/bg-cloud.jpg") repeat scroll left center #eeede8;
+}
+
+#visual-portal-wrapper {
+  background-color: #EEEDE8;
+  border: 1px solid #B7B7B7;
+  box-shadow: 0 0 6px #B7B7B7;
+  height: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  width: 970px;
+  -moz-box-shadow: 0 0 6px #B7B7B7;
+  -webkit-box-shadow: 0 0 6px #B7B7B7;
+}
+
+#portal-top {
+  background:#ffffff;
+  position:relative;
+  margin-bottom:0px;
+}
+
+#portal-columns {
+  background:#ffffff;
+  position:relative;
+  margin-bottom:0px;
+  padding-top:8px;
+}
+
+#portal-bottom {
+  background:#ffffff;
+  position:relative;
+  margin-top: 0px;
+}
+
+/* Container  
+---------------------------------*/
+
+.container {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 960px;
+}
+/* header
+---------------------------------*/
+
+#logo {
+  float:left;
+  margin-left: 15px;
+}
+#slogan {
+  float:left;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+#topheader {
+  width:970px;
+  margin: auto;
+  height:0px;
+}
+.right_info {
+  float:right;
+  margin-right:0px;
+  padding-top:8px;
+  width:250px;
+  font-size: 12px;
+  height: 5px;
+}
+.right_info ul {
+  list-style-type : none;
+  padding: 0;
+  padding-bottom: 0px;
+}
+.right_info ul li {
+  display:inline;
+  float:right;
+  margin-right: 5px;
+  padding-right: 5px;
+}
+.right_info ul li a {
+  display : block;
+  color:#000;
+  text-decoration : none;
+  margin-right:5px;
+}
+#nav {
+  float:left;
+  margin-right:5px;
+  width: 960px;
+  margin-left: 5px;
+  padding-bottom: 0px;
+  background-color: #C8C6BA;
+  margin-bottom: 1px;
+}
+.navmenu {
+  font-size: 15px;
+  width : 100%;
+  height : 38px;
+  margin-right:20px;
+  padding-top: 0px;
+}
+.navmenu ul {
+  list-style-type : none;
+  padding: 0;
+}
+.navmenu ul li {
+  position : relative;
+  display : inline;
+  float : left;
+  padding-left: 30px;
+}
+.navmenu ul li a {
+  display : block;
+  color:#333;
+  text-decoration : none;
+  margin-right:5px;
+}
+#slide {
+  width: 960px;
+  height: 325px;
+  padding-left: 5px;
+  padding-right: 5px;
+  clear: both;
+}
+#slideshadow {
+  width:950px;
+  margin-left:auto;
+  margin-right:auto;
+  background:url(../images/shadow.jpg) no-repeat;
+  height:14px;
+  position:relative;
+  clear: both;
+  margin-top: 2px;
+}
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0px;
+  height: 0;
+}
+/* left area 
+---------------------------------*/
+#L {
+  width: 245px;
+  height: 100%;
+  padding-left: 5px;
+  padding-right: 0px;
+  clear: both;
+  float:left;
+  background-color: #FFF;
+  margin-top:5px;
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+#static-portlet-1 {
+  width: 220px;
+  height: 227px;
+  background-image: url(../images/link-bg.png);
+  margin-left: 10px;
+}
+.banner {
+  width: 192px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 11px;
+  padding-top: 12px;
+}
+#activity {
+  width: 220px;
+  height: 240px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-left: 1px solid #f0e7e5;
+  border-right: 1px solid #f0e7e5;
+  border-bottom: 1px solid#f0e7e5;
+  font-size: 15px;
+  font-style: bold;
+}
+#search {
+  width: 220px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-left: 1px solid #f0e7e5;
+  border-right: 1px solid #f0e7e5;
+  border-bottom: 1px solid#f0e7e5;
+  font-size: 12px;
+}
+.search-box {
+  margin-top:4px;
+  float:left;
+  min-width:220px;
+}
+#activity dl {
+  margin-top: 0px;
+  padding: 0px;
+}
+#activity dl dt {
+  clear: both;
+  margin: 0 0 0px 6px;
+  padding: 0 0 0 10px;
+  background: url(../images/ic02.gif) no-repeat 0 50%;
+  color: #999;
+  font-size: 12px;
+}
+#activity dl dd {
+  margin: 0 0 2px 0;
+  padding: 0 0 5px 15px;
+  border-bottom: 1px solid #f0e7e5;
+  line-height: 1.2em;
+}
+/* right area  
+---------------------------------*/
+#R {
+  background: url("left-nav-vline.gif") repeat-y scroll 0px 0 transparent;
+  width: 690px;
+  height: 100%;
+  padding-left: 5px;
+  float: left;
+  padding-top: 5px;
+}
+#column1, #column2 {
+ /* width: 680px; */
+  height: 100%;
+  padding-left: 0px;
+ /* padding-right: 5px; */
+  background-color: #FFF;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+#leadBlock {
+  width: 100%;
+  clear: both;
+  margin-top: 0px;
+  height: 150px;
+  margin-bottom: 0px;
+}
+#thumb {
+  width: 195px;
+  margin-top: 0px;
+  float: left;
+}
+
+#contentBlock {
+  float: left;
+  width: 470px;
+  clear: none;
+  padding-left: 10px;
+  font-size: 15px;
+  color: #333;
+}
+
+#list {
+  font-size: 15px;
+  font-family: Verdana, Geneva, sans-serif;
+  background-image:url(list_dot.gif);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  padding: 2px;
+}
+
+.date {
+  HEIGHT: 0px;
+  text-align: left;
+  color: #999;
+  font-size: 12px;
+  float: right;
+}
+#report-column {
+  width: 710px;
+  height: 325px;
+  padding-left: 5px;
+  padding-right: 5px;
+  clear: both;
+  float:left;
+  background-color: #369;
+}
+.more {
+  width: 80px;
+  float: right;
+  padding-right: 10px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+/* focus info item
+---------------------------------*/
+#focus {
+  width: 954px;
+  height: 240px;
+  margin-left: 8px;
+  margin-right:8px;
+  clear: both;
+  background-color: #c9c7bc;
+  font-size: 10px;
+}
+.infoBlock {
+  width: 290px;
+  height: 220px;
+  float: left;
+  margin-left:20px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.infoImage {
+  width: 80px;
+  height: 150px;
+  float: left;
+  margin-right:8px;
+  clear: both;
+  background-color: #ccc;
+  font-size: 10px;
+}
+.infoContent {
+  width: 220px;
+  height: 250px;
+  float: left;
+  margin-right:8px;
+  clear: both;
+  background-color: #ccc;
+  font-size: 10px;
+}
+/* footer
+---------------------------------*/
+#foot {
+  width: 954px;
+  height: 50px;
+  margin-left: 8px;
+  margin-right:8px;
+  clear: both;
+  background-color: #144072;
+  font-size: 10px;
+}
+#copyinfo {
+  float:left;
+  width:800px;
+  color: #CCC;
+  padding-left: 15px;
+  padding-top: 8px;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  font-family: '微軟正黑體','Arial Unicode MS',Arial,Helvetica,sans-serif;
+}
+
+/* from sunburst public.css */
+#portal-globalnav {
+  clear: both;
+  font-size: 80%;
+  background: #cccbc2;
+  height: 33px;
+  margin: 0 0 1px 0;
+  color: #464540;
+  position:relative;
+  z-index:3;
+}
+
+#portal-globalnav li {
+  float:left;
+  margin:0;
+  padding:0;
+}
+
+#portal-globalnav li a {
+  display: block;
+  padding: 7px 15px 0 18px;
+  background: none repeat scroll 0 0 #cccbc2;
+  border: 0 none;
+  color: #333333;
+  font: 16px '微軟正黑體','Arial Unicode MS',Arial,Helvetica,sans-serif;
+  height: 1px; /* 26px */
+  letter-spacing: 1px;
+  min-width: 1em;
+  position: relative;
+  text-align: left;
+  vertical-align: middle;
+  white-space: normal;
+}
+
+#portal-globalnav .selected a,
+#portal-globalnav a:hover {
+  background-color: #EEEDE8;
+  color: #333333;
+  font: 16px '微軟正黑體','Arial Unicode MS',Arial,Helvetica,sans-serif;
+  vertical-align: middle;
+}
+#portal-globalnav .selected a:hover {
+  background: #eeede8;
+  color: #464540; 
+}
+
+
+/* * html #portal-globalnav {
+  height:1%;
+} */
+#portal-globalnav:after {
+  content:"";
+  clear:both;
+  display:block;
+  visibility:hidden;
+}
+
+/* from sunburst public.css */
+a:link, a:visited {
+    color: #474641;
+}
+
+
+/*
+** SUBMENU STYLES 
+*/
+
+ul.submenu {
+    background-color: #C0BFB6;
+    border-color: #EEEDE8;
+    border-style: solid;
+    border-width: 1px;
+    clear: both;
+    color: #464540;
+    left: -999em;
+    margin-top: 0px;
+    position: absolute;
+    width: 12em;
+}
+
+#portal-globalnav li.selected ul.submenu {
+    margin-top:-1px;
+    z-index:3;
+}
+#portal-globalnav ul.submenu li {
+  display:block;
+  width:100%;
+}
+#portal-globalnav ul.submenu a{	
+  border-bottom: 1px  #ffffff;
+  border-bottom-style: dotted;
+}
+#portal-globalnav ul.submenu a:hover {
+  color: #464540; /* #205c90; */
+  margin:0;
+  display:block;
+  border-color: White;
+  border-style: solid none none;
+  position:static !important;
+  white-space:normal;
+  border-bottom: 1px  #d6d5cb;
+  border-bottom-style: dotted;
+}
+#portal-globalnav li.selected ul.submenu a:hover {
+  color: #464540; 
+  background-color: #c0bfb6; 
+}
+
+/* a.hasDropDown {
+  background-image:url('&dtml-portal_url;/arrowRight.gif');
+  background-position:14em 50%;
+  background-repeat:no-repeat;
+} */
+
+/* Below we have the same style defined differently 
+** These are for IE7 and IE6 respectively. There is no 
+** possibility to put styles for IE6 and IE7 in the same
+** definition. So we have 2 separate definitions
+*/
+*:first-child+html #portal-globalnav ul.submenu a {height:1%;} /* IE7 fix. */
+* html #portal-globalnav ul.submenu a {height:1%;} /* we all love IE6 ;) */
+
+
+/* side-dropdown menu styles */
+
+#portal-globalnav li ul ul {
+  z-index:10;
+  margin-left: 153px;
+  margin-top: -6px;
+}
+
+#portal-globalnav ul li:hover,
+#portal-globalnav ul li.sfhover {
+  position:relative;
+}
+
+#portal-globalnav li:hover ul ul, 
+#portal-globalnav li:hover ul ul ul, 
+#portal-globalnav li:hover ul ul ul ul,
+#portal-globalnav li.sfhover ul ul, 
+#portal-globalnav li.sfhover ul ul ul,
+#portal-globalnav li.sfhover ul ul ul ul {
+  left:-999em;
+}
+
+#portal-globalnav li:hover ul, 
+#portal-globalnav li li:hover ul, 
+#portal-globalnav li li li:hover ul,
+#portal-globalnav li li li li:hover ul, 
+#portal-globalnav li.sfhover ul, 
+#portal-globalnav li li.sfhover ul, 
+#portal-globalnav li li li.sfhover ul,
+#portal-globalnav li li li li.sfhover ul {
+  left:auto;
+}
+
+/* clearing global navigation styles */
+#post-sections-clear {
+  height:1px;
+  margin-bottom:-3px;
+}
+
+/* See above for explanation of the below mess styles */
+*:first-child+html #post-sections-clear {margin-bottom:-2px;}
+* html #post-sections-clear {
+  margin-bottom:-2px;
+}
+
+/* news
+---------------------------------*/
+
+#content img.tileImage, div.newsImageContainer {
+  float: left;
+  margin: 0 1em 0.5em 0;
+}
+
+.tileItem,
+.item {
+    border-bottom: 1px dotted #BBBBBB;
+    padding-top: 0.5em;
+    padding-left:0.5em;
+    padding-bottom:0.5em;
+    margin-top: 0.5em;
+}
+.summary {
+    font-size:16px;
+    font-weight: bolder;
+    font-family: '微軟正黑體','Arial Unicode MS',Arial,Helvetica,sans-serif;
+    color:#3c3b3b;
+    letter-spacing:1px;
+}
+.contentSource{
+     color: #939393;
+     font-size:12px;
+     margin-top:10px;
+     margin-bottom:10px;
+}
+.contentDate{
+     font-size:12px;
+     margin-top:10px;
+     margin-bottom:10px;
+     color:#939393;
+}
+.parent-fieldname-image{
+    width:180px;
+    height:130px;
+    margin-right:20px;
+}
+
+.LSBox {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.portletSearch{
+    background:#eee;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    height:100px;
+}
+
+.portletFooter{
+    padding-left:10px;
+}
+
+#footer-carousel-1, #footer-carousel-2, #footer-carousel-3 {
+  width: 320px;
+  float: left;
+}
+
+#carousel-footer-headline {
+  display: none;
+}
+

@@ -1,0 +1,21 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:plone="http://namespaces.plone.org/plone"
+  xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+  i18n_domain="mazu.theme">
+
+  <include package=".browser" />
+
+  <plone:static
+    name="mazu"
+    directory="resources"
+    type="theme" />
+
+  <genericsetup:registerProfile
+    name="default"
+    title="MaZu Theme"
+    description="MaZu Theme Package Extension Profile."
+    directory="profiles/default"
+    provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+</configure>
