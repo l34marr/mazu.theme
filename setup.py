@@ -25,6 +25,7 @@ setup(name='mazu.theme',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'z3c.jbot',
       ],
       entry_points="""
       # -*- Entry points: -*-

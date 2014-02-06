@@ -1,0 +1,11 @@
+<div metal:define-macro="portal_footer"
+    i18n:domain="plone"
+    id="portal-footer" class="row">
+   <div class="cell width-full position-0">
+
+新港奉天宮世界媽祖文化研究暨文獻中心 Copyright &copy; <tal:year tal:content="view/year" /> 版權所有
+<br />
+地址：嘉義縣新港鄉中山路17號｜電話：05-374-2980｜傳真：05-374-2015｜E-MAIL：rcmc.tw@gmail.com
+
+   </div>
+</div>
