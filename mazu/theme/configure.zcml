@@ -7,7 +7,7 @@
   <include package=".browser" />
 
   <plone:static
-    name="mazu"
+    name="mazu.theme"
     directory="resources"
     type="theme" />
 
