@@ -17,7 +17,7 @@
   <genericsetup:registerProfile
     name="default"
     title="MaZu Theme"
-    description="MaZu Theme Package Extension Profile."
+    description="MaZu Theme Package."
     directory="profiles/default"
     provides="Products.GenericSetup.interfaces.EXTENSION" />
 

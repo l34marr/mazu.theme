@@ -48,7 +48,7 @@ body {
   color: #464540;
   line-height :21px;
   font-size:15px;
-  background: url("++theme++mazu/bg-cloud.jpg") repeat scroll left center #eeede8;
+  background: url("++theme++mazu.theme/bg-cloud.jpg") repeat scroll left center #eeede8;
 }
 
 #visual-portal-wrapper {
