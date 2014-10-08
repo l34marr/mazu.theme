@@ -3,7 +3,7 @@
 <object name="portal_css">
 
  <stylesheet
-  id="++theme++mazu/main.css"
+  id="++theme++mazu.theme/main.css"
   title="" media="screen" rel="stylesheet" rendering="import"
   cacheable="True" compression="safe" cookable="True"
   enabled="1" expression="" />
